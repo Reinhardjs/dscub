@@ -253,7 +253,7 @@ class Landing extends React.Component {
 
 
           <section className="section section-lg">
-            <Container>
+            <Container className="pb-100">
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
                   <img
@@ -329,7 +329,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section bg-secondary">
+          {/*<section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -399,8 +399,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section pb-0 bg-gradient-warning">
+          </section>*/}
+          {/*<section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
@@ -487,7 +487,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
+             SVG separator
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -503,8 +503,8 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section>
-          <section className="section section-lg">
+          </section>*/}
+          {/*<section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -689,8 +689,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section section-lg pt-0">
+          </section>*/}
+          {/*<section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
@@ -720,9 +720,9 @@ class Landing extends React.Component {
                 </div>
               </Card>
             </Container>
-          </section>
+          </section>*/}
           <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
+            <Container className="pb-200">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
@@ -735,7 +735,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
               <Row className="row-grid mt-5">
-                <Col lg="4">
+                {/*<Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-settings text-primary" />
                   </div>
@@ -764,7 +764,7 @@ class Landing extends React.Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                </Col>
+                </Col>*/}
               </Row>
             </Container>
             {/* SVG separator */}
