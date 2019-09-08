@@ -2,7 +2,7 @@
   "name": "argon-design-system-react",
   "version": "1.0.0",
   "description": "React version of Argon Design System by Creative Tim",
-  "homepage": "https://dscub.tech",
+  "homepage": "https://reinhard-dev.dscub.tech",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
