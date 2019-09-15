@@ -252,7 +252,21 @@ class Landing extends React.Component {
                     <section className="section">
                         <Container>
 
-                            <br/><br/><br/><br/>
+                            <Row className="justify-content-center text-center mb-lg">
+                                <Col lg="8">
+                                    <br/><br/>
+                                    <h2 className="display-3">Misi DSC UB</h2>
+                                    <p className="lead text-muted">
+                                        Kita ingin semua mahasiswa khususnya mahasiswa Universitas Brawijaya bisa lebih
+                                        kritis lagi
+                                        akan permasalahan sekitar dan bisa membantu menciptakan solusinya dari
+                                        pendekatan teknologi.
+                                        Jangan takut karena kita akan belajar dari awal.
+                                        <br/>
+                                        #SharinginAja di DSC UB :)
+                                    </p>
+                                </Col>
+                            </Row>
 
                             <Row>
 
@@ -270,23 +284,6 @@ class Landing extends React.Component {
                                             allowFullScreen/>
                                 </Col>
 
-                            </Row>
-
-
-                            <Row className="justify-content-center text-center mb-lg">
-                                <Col lg="8">
-                                    <br/><br/>
-                                    <h2 className="display-3">Misi DSC UB</h2>
-                                    <p className="lead text-muted">
-                                        Kita ingin semua mahasiswa khususnya mahasiswa Universitas Brawijaya bisa lebih
-                                        kritis lagi
-                                        akan permasalahan sekitar dan bisa membantu menciptakan solusinya dari
-                                        pendekatan teknologi.
-                                        Jangan takut karena kita akan belajar dari awal.
-                                        <br/>
-                                        #SharinginAja di DSC UB :)
-                                    </p>
-                                </Col>
                             </Row>
 
                         </Container>
