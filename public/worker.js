@@ -1,5 +1,5 @@
-// v 04/09/2019 nice update 15/09/2019 - 19:41ss
-// Flag for enabling cache in production asdf
+// v 04/09/2019 nice update 15/09/2019 - 20:13
+// Flag for enabling cache in production
 var doCache = true;
 var CACHE_NAME = 'pwa-app-cache';
 

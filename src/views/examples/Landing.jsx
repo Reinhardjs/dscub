@@ -249,8 +249,50 @@ class Landing extends React.Component {
             </Container>
           </section>*/}
 
+                    <section className="section">
+                        <Container>
 
-                    <section className="section section-lg">
+                            <br/><br/><br/><br/>
+
+                            <Row>
+
+                                <Col className="mb-5 mb-lg-0">
+                                    <iframe width="480" height="260"
+                                            src="https://www.youtube.com/embed/XRUVTbTUYwE" frameBorder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowFullScreen/>
+                                </Col>
+
+                                <Col className="mb-5 mb-lg-0">
+                                    <iframe width="480" height="260"
+                                            src="https://www.youtube.com/embed/RnWWBusoySs" frameBorder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowFullScreen/>
+                                </Col>
+
+                            </Row>
+
+
+                            <Row className="justify-content-center text-center mb-lg">
+                                <Col lg="8">
+                                    <br/><br/>
+                                    <h2 className="display-3">Misi DSC UB</h2>
+                                    <p className="lead text-muted">
+                                        Kita ingin semua mahasiswa khususnya mahasiswa Universitas Brawijaya bisa lebih
+                                        kritis lagi
+                                        akan permasalahan sekitar dan bisa membantu menciptakan solusinya dari
+                                        pendekatan teknologi.
+                                        Jangan takut karena kita akan belajar dari awal.
+                                        <br/>
+                                        #SharinginAja di DSC UB :)
+                                    </p>
+                                </Col>
+                            </Row>
+
+                        </Container>
+                    </section>
+
+                    <section className="section section-lg bg-secondary">
                         <Container className="pb-100">
                             <Row className="row-grid align-items-center">
 
@@ -335,48 +377,7 @@ class Landing extends React.Component {
                             </Row>
                         </Container>
                     </section>
-                    <section className="section bg-secondary">
-                        <Container>
 
-                            <br/><br/><br/><br/>
-
-                            <Row>
-
-                                <Col className="mb-5 mb-lg-0">
-                                    <iframe width="480" height="260"
-                                            src="https://www.youtube.com/embed/XRUVTbTUYwE" frameBorder="0"
-                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowFullScreen/>
-                                </Col>
-
-                                <Col className="mb-5 mb-lg-0">
-                                    <iframe width="480" height="260"
-                                            src="https://www.youtube.com/embed/RnWWBusoySs" frameBorder="0"
-                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowFullScreen/>
-                                </Col>
-
-                            </Row>
-
-
-                            <Row className="justify-content-center text-center mb-lg">
-                                <Col lg="8">
-                                    <br/><br/>
-                                    <h2 className="display-3">Misi DSC UB</h2>
-                                    <p className="lead text-muted">
-                                        Kita ingin semua mahasiswa khususnya mahasiswa Universitas Brawijaya bisa lebih
-                                        kritis lagi
-                                        akan permasalahan sekitar dan bisa membantu menciptakan solusinya dari
-                                        pendekatan teknologi.
-                                        Jangan takut karena kita akan belajar dari awal.
-                                        <br/>
-                                        #SharinginAja di DSC UB :)
-                                    </p>
-                                </Col>
-                            </Row>
-
-                        </Container>
-                    </section>
                     {/*<section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
@@ -633,70 +634,54 @@ class Landing extends React.Component {
               </Card>
             </Container>
           </section>*/}
-                    <section className="section section-lg bg-gradient-default">
-                        <Container className="pb-200">
+                    <section className="section bg-gradient-default">
+                        <Container>
                             <Row className="text-center justify-content-center">
                                 <Col lg="10">
-                                    <h2 className="display-3 text-white">Notifikasi</h2>
-                                    {/*<p className="lead text-white">*/}
-                                    {/*According to the National Oceanic and Atmospheric*/}
-                                    {/*Administration, Ted, Scambos, NSIDClead scentist, puts the*/}
-                                    {/*potentially record low maximum sea ice extent tihs year down*/}
-                                    {/*to low ice.*/}
-                                    {/*</p>*/}
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.437235914397!2d112.61248451538401!3d-7.953686281452585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78827928958613%3A0xd600c9c3727a93aa!2sFakultas%20Ilmu%20Komputer%20Universitas%20Brawijaya%20(FILKOM)!5e0!3m2!1sen!2sid!4v1568552674851!5m2!1sen!2sid"
+                                        width="100%" height="400"
+                                        allowFullScreen=""/>
                                 </Col>
                             </Row>
-                            <Row className="row-grid mt-5">
-                                {/*<Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>*/}
-                            </Row>
+                            {/*<Row className="row-grid mt-5">
+                                <Col lg="4">
+                                    <div
+                                        className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                        <i className="ni ni-settings text-primary"/>
+                                    </div>
+                                    <h5 className="text-white mt-3">Building tools</h5>
+                                    <p className="text-white mt-3">
+                                        Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.
+                                    </p>
+                                </Col>
+                                <Col lg="4">
+                                    <div
+                                        className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                        <i className="ni ni-ruler-pencil text-primary"/>
+                                    </div>
+                                    <h5 className="text-white mt-3">Grow your market</h5>
+                                    <p className="text-white mt-3">
+                                        Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.
+                                    </p>
+                                </Col>
+                                <Col lg="4">
+                                    <div
+                                        className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                        <i className="ni ni-atom text-primary"/>
+                                    </div>
+                                    <h5 className="text-white mt-3">Launch time</h5>
+                                    <p className="text-white mt-3">
+                                        Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.
+                                    </p>
+                                </Col>
+                            </Row>*/}
                         </Container>
-                        {/* SVG separator */}
-                        <div className="separator separator-bottom separator-skew zindex-100">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                preserveAspectRatio="none"
-                                version="1.1"
-                                viewBox="0 0 2560 100"
-                                x="0"
-                                y="0"
-                            >
-                                <polygon
-                                    className="fill-white"
-                                    points="2560 0 2560 100 0 100"
-                                />
-                            </svg>
-                        </div>
                     </section>
-                    <section className="section section-lg pt-lg-0 section-contact-us">
+                    {/*<section className="section section-lg pt-lg-0 section-contact-us">
                         <Container>
                             <Row className="justify-content-center mt--300">
                                 <Col lg="8">
@@ -745,16 +730,16 @@ class Landing extends React.Component {
                                                     />
                                                 </InputGroup>
                                             </FormGroup>
-                                            {/*<FormGroup className="mb-4">*/}
-                                            {/*<Input*/}
-                                            {/*className="form-control-alternative"*/}
-                                            {/*cols="80"*/}
-                                            {/*name="name"*/}
-                                            {/*placeholder="Type a message..."*/}
-                                            {/*rows="4"*/}
-                                            {/*type="textarea"*/}
-                                            {/*/>*/}
-                                            {/*</FormGroup>*/}
+                                            <FormGroup className="mb-4">
+                                            <Input
+                                            className="form-control-alternative"
+                                            cols="80"
+                                            name="name"
+                                            placeholder="Type a message..."
+                                            rows="4"
+                                            type="textarea"
+                                            />
+                                            </FormGroup>
                                             <div>
                                                 <Button
                                                     block
@@ -771,7 +756,7 @@ class Landing extends React.Component {
                                 </Col>
                             </Row>
                         </Container>
-                    </section>
+                    </section>*/}
                     {/*<Download />*/}
                 </main>
                 <CardsFooter/>
