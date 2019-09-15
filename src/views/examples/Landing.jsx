@@ -57,6 +57,16 @@ class Landing extends React.Component {
             marginLeft: "10px"
         };
 
+        var textJustifyStyle = {
+            textAlign: "justify",
+            textJustify: "inter-word"
+        };
+
+        var textLeftStyle = {
+            textAlign: "left",
+            textJustify: "inter-word"
+        };
+
         return (
             <>
                 <DemoNavbar/>
@@ -253,16 +263,18 @@ class Landing extends React.Component {
                         <Container>
 
                             <Row className="justify-content-center text-center mb-lg">
-                                <Col lg="8">
+                                <Col lg="10">
                                     <br/><br/>
                                     <h2 className="display-3">Misi DSC UB</h2>
-                                    <p className="lead text-muted">
+                                    <p className="lead text-muted" style={textJustifyStyle}>
                                         Kita ingin semua mahasiswa khususnya mahasiswa Universitas Brawijaya bisa lebih
                                         kritis lagi
                                         akan permasalahan sekitar dan bisa membantu menciptakan solusinya dari
                                         pendekatan teknologi.
                                         Jangan takut karena kita akan belajar dari awal.
                                         <br/>
+                                    </p>
+                                    <p style={textLeftStyle}>
                                         #SharinginAja di DSC UB :)
                                     </p>
                                 </Col>
@@ -633,6 +645,12 @@ class Landing extends React.Component {
           </section>*/}
                     <section className="section bg-gradient-default">
                         <Container>
+                            <Row className="text-center">
+                                <Col>
+                                    <h2 className="display-3 text-white">Find Us</h2>
+                                    <br/>
+                                </Col>
+                            </Row>
                             <Row className="text-center justify-content-center">
                                 <Col lg="10">
                                     <iframe

@@ -94,66 +94,63 @@ class DemoNavbar extends React.Component {
                                             <div className="dropdown-menu-inner">
                                                 <Media
                                                     className="d-flex align-items-center"
-                                                    href="/"
-                                                    target="_blank">
+                                                    href="/">
 
                                                     <div
                                                         className="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                                                        <i className="ni ni-spaceship"/>
+                                                        <i className="ni ni-settings-gear-65"/>
                                                     </div>
 
                                                     <Media body className="ml-3">
                                                         <h6 className="heading text-primary mb-md-1">
-                                                            Getting started
+                                                            Workshop
                                                         </h6>
-                                                        <p className="description d-none d-md-inline-block mb-0">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                                            do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua
-                                                        </p>
+                                                        {/*<p className="description d-none d-md-inline-block mb-0">*/}
+                                                            {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed*/}
+                                                            {/*do eiusmod tempor incididunt ut labore et dolore magna*/}
+                                                            {/*aliqua*/}
+                                                        {/*</p>*/}
                                                     </Media>
                                                 </Media>
 
                                                 <Media
                                                     className="d-flex align-items-center"
-                                                    href="/"
-                                                    target="_blank">
+                                                    href="/">
 
                                                     <div
                                                         className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                                                        <i className="ni ni-palette"/>
+                                                        <i className="ni ni-atom"/>
                                                     </div>
 
                                                     <Media body className="ml-3">
                                                         <h6 className="heading text-primary mb-md-1">
-                                                            Foundation
+                                                            Project Building
                                                         </h6>
-                                                        <p className="description d-none d-md-inline-block mb-0">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                                            do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua
-                                                        </p>
+                                                        {/*<p className="description d-none d-md-inline-block mb-0">*/}
+                                                            {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed*/}
+                                                            {/*do eiusmod tempor incididunt ut labore et dolore magna*/}
+                                                            {/*aliqua*/}
+                                                        {/*</p>*/}
                                                     </Media>
 
                                                 </Media>
 
                                                 <Media
                                                     className="d-flex align-items-center"
-                                                    href="/"
-                                                    target="_blank">
+                                                    href="/">
                                                     <div
                                                         className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                                                        <i className="ni ni-ui-04"/>
+                                                        <i className="ni ni-satisfied"/>
                                                     </div>
                                                     <Media body className="ml-3">
                                                         <h5 className="heading text-warning mb-md-1">
-                                                            Components
+                                                            Join the Global Changes
                                                         </h5>
-                                                        <p className="description d-none d-md-inline-block mb-0">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                                            do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua
-                                                        </p>
+                                                        {/*<p className="description d-none d-md-inline-block mb-0">*/}
+                                                            {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed*/}
+                                                            {/*do eiusmod tempor incididunt ut labore et dolore magna*/}
+                                                            {/*aliqua*/}
+                                                        {/*</p>*/}
                                                     </Media>
                                                 </Media>
                                             </div>
