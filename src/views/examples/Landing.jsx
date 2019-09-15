@@ -53,6 +53,10 @@ class Landing extends React.Component {
     }
 
     render() {
+        var marginStyle = {
+            marginLeft: "10px"
+        };
+
         return (
             <>
                 <DemoNavbar/>
@@ -79,17 +83,20 @@ class Landing extends React.Component {
                                                 Developer Student Clubs {" "}
                                                 <span>Universitas Brawijaya</span>
                                             </h1>
+
+                                        </Col>
+                                    </Row>
+
+                                    <Row>
+                                        <Col lg="6">
                                             <br/>
                                             <iframe width="500" height="280"
                                                     src="https://www.youtube.com/embed/DcN_hcHXR_0" frameBorder="0"
                                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                     allowFullScreen/>
                                         </Col>
-
                                         <Col lg="6">
-                                            <br/><br/>
-                                            <br/><br/><br/>
-                                            <p className="lead text-white offset-1">
+                                            <p className="lead text-white">
                                                 Developer Students Club atau yang biasa disingkat dengan DSC
                                                 merupakan program dari Google Developers yang dirancang untuk membantu
                                                 mahasiswa
@@ -246,20 +253,12 @@ class Landing extends React.Component {
                     <section className="section section-lg">
                         <Container className="pb-100">
                             <Row className="row-grid align-items-center">
+
                                 <Col className="order-md-1" md="6">
-                                    <img
-                                        alt="..."
-                                        className="img-fluid floating"
-                                        src={require("assets/img/brand/dsc_logo.png")}
-                                    />
-
-                                </Col>
-
-                                <Col className="order-md-2" md="6">
-                                    <div className="pr-md-5 offset-lg-3">
+                                    <div className="pr-md-5">
                                         {/*<div*/}
-                                            {/*className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">*/}
-                                            {/*<i className="ni ni-settings-gear-65"/>*/}
+                                        {/*className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">*/}
+                                        {/*<i className="ni ni-settings-gear-65"/>*/}
                                         {/*</div>*/}
                                         <h3>Ada kegiatan apa aja?</h3>
                                         <p>
@@ -321,6 +320,15 @@ class Landing extends React.Component {
                                     </div>
                                 </Col>
 
+
+                                <Col className="order-md-2" md="6">
+                                    <img
+                                        alt="..."
+                                        className="img-fluid floating"
+                                        src={require("assets/img/brand/dsc_logo.png")}
+                                    />
+
+                                </Col>
 
 
                             </Row>
