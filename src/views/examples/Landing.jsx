@@ -348,6 +348,7 @@ class Landing extends React.Component {
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowFullScreen/>
                                 </Col>
+
                                 <Col className="mb-5 mb-lg-0">
                                     <iframe width="480" height="260"
                                             src="https://www.youtube.com/embed/RnWWBusoySs" frameBorder="0"

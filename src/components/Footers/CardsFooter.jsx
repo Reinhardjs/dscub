@@ -64,44 +64,11 @@ class CardsFooter extends React.Component {
                     <Container>
                         <Row className="row-grid align-items-center my-md">
                             <Col lg="6">
-                                <h3 className="text-primary font-weight-light mb-2">
-                                    Come and join us!
-                                </h3>
                                 <h4 className="mb-0 font-weight-light">
                                     Stay tune on our instagram.
                                 </h4>
                             </Col>
-                            <Col className="text-lg-center btn-wrapper" lg="6">
-                                <Button
-                                    className="btn-neutral btn-icon-only btn-round"
-                                    color="instagram"
-                                    href="https://instagramseparator separator-bottom separator-skew.com/dsc.brawijaya"
-                                    id="tooltip475038074"
-                                    size="lg"
-                                    target="_blank"
-                                >
-                                    <i className="fa fa-instagram"/>
-                                </Button>
-                                <UncontrolledTooltip delay={0} target="tooltip475038074">
-                                    Follow us
-                                </UncontrolledTooltip>
 
-
-                                <Button
-                                    className="btn-neutral btn-icon-only btn-round"
-                                    color="github"
-                                    href="https://github.com/creativetimofficial/argon-design-system-react"
-                                    id="tooltip475038074asd"
-                                    size="lg"
-                                    target="_blank"
-                                >
-                                    <i className="fa fa-github"/>
-                                </Button>
-                                <UncontrolledTooltip delay={0} target="tooltip475038074asd">
-                                    Template used on this web
-                                </UncontrolledTooltip>
-
-                            </Col>
                         </Row>
                         <hr/>
                         <Row className="align-items-center justify-content-md-between">
