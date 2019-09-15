@@ -645,14 +645,10 @@ class Landing extends React.Component {
           </section>*/}
                     <section className="section bg-gradient-default">
                         <Container>
-                            <Row className="text-center">
-                                <Col>
-                                    <h2 className="display-3 text-white">Find Us</h2>
-                                    <br/>
-                                </Col>
-                            </Row>
                             <Row className="text-center justify-content-center">
                                 <Col lg="10">
+                                    <h2 className="display-3 text-white" style={textLeftStyle}>Find Us!</h2>
+                                    <br/>
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.437235914397!2d112.61248451538401!3d-7.953686281452585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78827928958613%3A0xd600c9c3727a93aa!2sFakultas%20Ilmu%20Komputer%20Universitas%20Brawijaya%20(FILKOM)!5e0!3m2!1sen!2sid!4v1568552674851!5m2!1sen!2sid"
                                         width="100%" height="400"
