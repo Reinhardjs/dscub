@@ -262,7 +262,8 @@ class Landing extends React.Component {
                                         {/*</div>*/}
                                         <h3>Ada kegiatan apa aja?</h3>
                                         <p>
-                                            Dibantu sama yang ahli di bidangnya, DSC akan membantu proses pembelajaran kalian dari :
+                                            Dibantu sama yang ahli di bidangnya, DSC akan membantu proses pembelajaran
+                                            kalian dari :
                                         </p>
                                         <ul className="list-unstyled mt-5">
                                             <li className="py-2">
@@ -342,16 +343,16 @@ class Landing extends React.Component {
                             <Row>
 
                                 <Col className="mb-5 mb-lg-0">
-                                        <iframe width="480" height="260"
-                                                src="https://www.youtube.com/embed/XRUVTbTUYwE" frameBorder="0"
-                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowFullScreen/>
+                                    <iframe width="480" height="260"
+                                            src="https://www.youtube.com/embed/XRUVTbTUYwE" frameBorder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowFullScreen/>
                                 </Col>
                                 <Col className="mb-5 mb-lg-0">
-                                        <iframe width="480" height="260"
-                                                src="https://www.youtube.com/embed/RnWWBusoySs" frameBorder="0"
-                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowFullScreen/>
+                                    <iframe width="480" height="260"
+                                            src="https://www.youtube.com/embed/RnWWBusoySs" frameBorder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowFullScreen/>
                                 </Col>
 
                             </Row>
@@ -362,8 +363,10 @@ class Landing extends React.Component {
                                     <br/><br/>
                                     <h2 className="display-3">Misi DSC UB</h2>
                                     <p className="lead text-muted">
-                                        Kita ingin semua mahasiswa khususnya mahasiswa Universitas Brawijaya bisa lebih kritis lagi
-                                        akan permasalahan sekitar dan bisa membantu menciptakan solusinya dari pendekatan teknologi.
+                                        Kita ingin semua mahasiswa khususnya mahasiswa Universitas Brawijaya bisa lebih
+                                        kritis lagi
+                                        akan permasalahan sekitar dan bisa membantu menciptakan solusinya dari
+                                        pendekatan teknologi.
                                         Jangan takut karena kita akan belajar dari awal.
                                         <br/>
                                         #SharinginAja di DSC UB :)
@@ -635,10 +638,10 @@ class Landing extends React.Component {
                                 <Col lg="10">
                                     <h2 className="display-3 text-white">Notifikasi</h2>
                                     {/*<p className="lead text-white">*/}
-                                        {/*According to the National Oceanic and Atmospheric*/}
-                                        {/*Administration, Ted, Scambos, NSIDClead scentist, puts the*/}
-                                        {/*potentially record low maximum sea ice extent tihs year down*/}
-                                        {/*to low ice.*/}
+                                    {/*According to the National Oceanic and Atmospheric*/}
+                                    {/*Administration, Ted, Scambos, NSIDClead scentist, puts the*/}
+                                    {/*potentially record low maximum sea ice extent tihs year down*/}
+                                    {/*to low ice.*/}
                                     {/*</p>*/}
                                 </Col>
                             </Row>
@@ -742,14 +745,14 @@ class Landing extends React.Component {
                                                 </InputGroup>
                                             </FormGroup>
                                             {/*<FormGroup className="mb-4">*/}
-                                                {/*<Input*/}
-                                                    {/*className="form-control-alternative"*/}
-                                                    {/*cols="80"*/}
-                                                    {/*name="name"*/}
-                                                    {/*placeholder="Type a message..."*/}
-                                                    {/*rows="4"*/}
-                                                    {/*type="textarea"*/}
-                                                {/*/>*/}
+                                            {/*<Input*/}
+                                            {/*className="form-control-alternative"*/}
+                                            {/*cols="80"*/}
+                                            {/*name="name"*/}
+                                            {/*placeholder="Type a message..."*/}
+                                            {/*rows="4"*/}
+                                            {/*type="textarea"*/}
+                                            {/*/>*/}
                                             {/*</FormGroup>*/}
                                             <div>
                                                 <Button
