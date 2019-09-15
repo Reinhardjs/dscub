@@ -90,7 +90,7 @@ class Landing extends React.Component {
                                     <Row>
                                         <Col lg="6">
                                             <br/>
-                                            <iframe width="500" height="280"
+                                            <iframe width="100%" height="280"
                                                     src="https://www.youtube.com/embed/DcN_hcHXR_0" frameBorder="0"
                                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                     allowFullScreen/>
@@ -257,14 +257,14 @@ class Landing extends React.Component {
                             <Row>
 
                                 <Col className="mb-5 mb-lg-0">
-                                    <iframe width="480" height="260"
+                                    <iframe width="100%" height="260"
                                             src="https://www.youtube.com/embed/XRUVTbTUYwE" frameBorder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowFullScreen/>
                                 </Col>
 
                                 <Col className="mb-5 mb-lg-0">
-                                    <iframe width="480" height="260"
+                                    <iframe width="100%" height="260"
                                             src="https://www.youtube.com/embed/RnWWBusoySs" frameBorder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowFullScreen/>
