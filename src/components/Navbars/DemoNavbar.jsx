@@ -226,6 +226,22 @@ class DemoNavbar extends React.Component {
                                             Template used on this web
                                         </UncontrolledTooltip>
                                     </NavItem>
+
+                                    <NavItem className="d-none d-lg-block ml-lg-4">
+                                        <Button
+                                            className="btn-neutral btn-icon"
+                                            color="default"
+                                            href="/"
+                                            target="_blank"
+                                        >
+                                            {/*<span className="btn-inner--icon">*/}
+                                            {/*<i className="fa fa-cloud-download mr-2" />*/}
+                                            {/*</span>*/}
+                                            <span className="nav-link-inner--text ml-1">
+                                                Yuk Join
+                                            </span>
+                                        </Button>
+                                    </NavItem>
                                 </Nav>
                             </UncontrolledCollapse>
                         </Container>
